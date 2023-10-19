@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.board1{
+    display: flex;
+    flex-direction: row;
+    /* flex: 1 2 100px; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+}
+.sort-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .sort-options button {
+    margin: 0.5rem;
+    padding: 10px 20px;
+    background-color: rgba(51, 50, 50, 0.89);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .sort-options button:hover {
+    transform: scale(1.1);
+    background-color: #0056b3;
+  }

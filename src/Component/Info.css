@@ -1,0 +1,56 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: auto;
+    height: auto;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(97, 26, 26, 0.2);
+    border-radius: 12px;
+    
+  }
+  .info-box h2 {
+    background-color: rgba(51, 50, 50, 0.89);
+    box-shadow: 0 0 10px rgba(97, 26, 26, 0.2);
+    opacity: 0.88;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 0.5rem;
+    padding-right: 2rem;
+  }
+  
+  .info-box div p {
+    font-size: 14px;
+    color: #555;
+    margin: 8px 0;
+  }
+
+  .info-box div p strong {
+    font-weight: bold;
+    color: #000;
+  }
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: black;
+    z-index: 1001;
+  }
+  
+    
